@@ -38,4 +38,17 @@ public class RemoveDuplicatesFromSortedArray {
 
         return insertPosition;
     }
+
+    public static void main(String[] args) {
+        int[] nums = {0,0,1,1,1,2,2,3,3,4};
+        RemoveDuplicatesFromSortedArray sol1 = new RemoveDuplicatesFromSortedArray();
+        int newLength = sol1.removeDuplicates(nums);
+        System.out.print("Remove Duplicates Output: ");
+        for (int i = 0; i < newLength; i++) {
+            System.out.print(nums[i] + " ");
+        }
+        System.out.println("\nNew length: " + newLength); // Deve imprimir 5
+
+    }
+
 }
