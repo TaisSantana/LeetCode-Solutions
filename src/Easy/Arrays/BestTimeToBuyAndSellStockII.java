@@ -9,7 +9,7 @@ You are given an array prices where prices[i] is the price of a given stock on d
 You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times),
 but you can only hold at most one share of the stock at any time. You can buy and sell on the same day.
 
- Solution:
+Solution:
 - Iterate through the array and sum all positive differences between consecutive days.
 - This ensures you "collect" all profitable increases.
 - Time complexity: O(n)
